@@ -7,7 +7,7 @@ const Products = () => {
     const [data, setData] = useState([])
     const [error, setError] = useState(false)
     useEffect(() => {
-        axios.get('https://abc-q1db.onrender.com/api/product').then((res) => {
+        axios.get('https://abcd-cz0n.onrender.com/api/product').then((res) => {
             console.log(res.data)
             setData(res.data.products)
         }).catch((err) => {
